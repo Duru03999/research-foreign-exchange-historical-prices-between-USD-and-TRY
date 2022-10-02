@@ -1,9 +1,10 @@
 
 CREATE TABLE USDTRY (
-Date int,
-Open int,
-Low int,
-Close int,
-AdjClose int,
-Volume int,
-); 
+ Dt DATE,
+  Open DECIMAL,
+  High DECIMAL,
+  Low DECIMAL,
+  Close DECIMAL,
+  AdjClose DECIMAL,
+  Volume int
+  );
