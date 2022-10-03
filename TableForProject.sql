@@ -1,10 +1,10 @@
 
-CREATE TABLE USDTRY (
- Dt DATE,
-  Open DECIMAL,
-  High DECIMAL,
-  Low DECIMAL,
-  Close DECIMAL,
-  AdjClose DECIMAL,
-  Volume int
+CREATE TABLE USD_TRY (
+ Given_date DATE NOT NULL,
+  Open DECIMAL(7,6) NULL,
+  High DECIMAL (7,6) NULL,
+  Low DECIMAL (7,6) NULL,
+  AdjClose DECIMAL (7,6) NULL,
+  Volume int 
   );
+  
